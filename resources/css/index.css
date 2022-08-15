@@ -53,6 +53,15 @@ header {
 .social:hover {
     box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
 }
+
+.navi {
+    text-decoration: none;
+    color:rgba(0, 106, 148, 0.5);
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
+}
 @media only screen and (max-width: 900px){
     header {
         width: 60%;
@@ -131,6 +140,17 @@ main {
     font-size: 3rem;
 }
 
+.intro a {
+    font-size: 2rem;
+    color: orangered;
+    text-decoration:none;
+    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+    border: 2px orangered solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+}
 .roadmap {
     width: 100%;
     height: 100%;
@@ -187,6 +207,18 @@ main {
     margin-top: 1rem;
     box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
 }
+.roadmap a {
+    text-decoration: none;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px orangered solid;
+    color: orangered;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+
+}
 @media only screen and (max-width: 900px){
     main {
         position: relative;
@@ -195,7 +227,7 @@ main {
 }
 @media only screen and (max-width: 650px){
     main {
-        position: relative;
+        position: relative; 
         top: 7.5rem;
     }
     .intro h2 {
@@ -210,6 +242,14 @@ main {
     }
     .intro p span {
         font-size: 1.5rem;
+    }
+    .intro a {
+        font-size: 1rem;
+        border: 0.1rem orangered solid;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-weight: 700;
     }
     .roadmap h2 {
         font-size: 2rem;
