@@ -166,7 +166,7 @@ main {
 .roadmap h2 {
     width: 100%;
     text-align: center;
-    color:rgba(0, 106, 148, 0.5);
+    color:rgba(1, 48, 66, 0.5);
     font-size: 4rem;
     padding-bottom: 1rem;
     padding: auto;
@@ -177,7 +177,7 @@ main {
     width: 45%;
     box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
     text-align: center;
-    color:rgba(0, 106, 148, 1);
+    color:rgb(0, 32, 44);
     text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
     font-size: 1.5rem;
     font-weight: 700;
