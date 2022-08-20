@@ -98,6 +98,26 @@ header {
         height: 2rem;
     }
 }
+@media only screen and (max-width: 500px){
+    #icon {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.5rem;
+    }
+    .title h1{
+        font-size: 0.9rem;
+    }
+    .social {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin: 0.25rem;
+    }
+    .navi {
+        font-size: 0.75rem;
+        padding: 0;
+    }
+}
+
 /*Main style*/
 main {
     position: relative;
