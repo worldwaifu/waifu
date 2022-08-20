@@ -38,8 +38,8 @@ header {
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color:rgba(0, 106, 148, 0.5);
-    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
+    color:rgb(0, 106, 148);
+
 }
 .social {
     width: 5rem;
@@ -56,11 +56,11 @@ header {
 
 .navi {
     text-decoration: none;
-    color:rgba(0, 106, 148, 0.5);
+    color:rgb(0, 106, 148);
     font-weight: 700;
     padding: 0.5rem;
     margin: 0.5rem;
-    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
+    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18;
 }
 @media only screen and (max-width: 900px){
     header {
@@ -114,26 +114,24 @@ main {
     width: 100%;
     height: 100%;
     border: 0.2rem gold solid;
-    background-color: rgba(255, 255, 0, 0.75);
     border-radius: 2rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18, 0 0 7px #fbff18, 0 0 10px #fbff18, 0 0 12px #fbff18;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18,0 0 7px #fbff18, 0 0 10px #fbff18;
 }
 .intro h2 {
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color:rgba(0, 106, 148, 0.5);
-    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18, 0 0 7px #fbff18, 0 0 10px #fbff18, 0 0 12px #fbff18;
+    color:yellow;
+    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18;
 }
 .intro img {
     height: 15rem;
     width: 15rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18, 0 0 7px #fbff18, 0 0 10px #fbff18, 0 0 12px #fbff18;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18, 0 0 7px #fbff18, 0 0 10px #fbff18;
 }
 .intro p {
     text-align: center;
-    color:rgba(0, 106, 148, 0.5);
-    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18, 0 0 7px #fbff18, 0 0 10px #fbff18, 0 0 12px #fbff18;
+    color:yellow;
     font-size: 2rem;
 }
 .intro p span {
@@ -142,14 +140,13 @@ main {
 
 .intro a {
     font-size: 2rem;
-    color: orangered;
+    color: yellow;
     text-decoration:none;
-    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
-    border: 2px orangered solid;
+    border: 2px yellow solid;
     border-radius: 1rem;
     padding: 1rem;
     margin: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18,0 0 7px #fbff18, 0 0 10px #fbff18;
 }
 .roadmap {
     width: 100%;
@@ -157,16 +154,16 @@ main {
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    border: 10px rgb(106, 0, 245) solid;
+    border: 0.2rem rgb(106, 0, 245) solid;
     border-radius: 2rem;
-    background-color: rgba(106, 0, 245, 0.95);
+
     box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
 }
 
 .roadmap h2 {
     width: 100%;
     text-align: center;
-    color:rgba(1, 48, 66, 0.5);
+    color:#4900f3;
     font-size: 4rem;
     padding-bottom: 1rem;
     padding: auto;
@@ -177,8 +174,7 @@ main {
     width: 45%;
     box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
     text-align: center;
-    color:rgb(0, 32, 44);
-    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
+    color:#6f34f8;
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0.5rem 2.5%;
@@ -213,22 +209,98 @@ main {
     padding: 0.5rem;
     margin: 1rem 0.5rem;
     border-radius: 0.5rem;
-    border: 2px orangered solid;
-    color: orangered;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
-    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+    border: 2px red solid;
+    color:red;
+    box-shadow: 0 0 2px #FFF, 0 0 5px #FFF, 0 0 6px #FFF, 0 0 7px red, 0 0 9px red, 0 0 12px red, 0 0 15px red, 0 0 25px red;
 
+}
+
+.nftlaunch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nftlaunch a{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    border: 2px orangered solid;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+}
+
+.launchinfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: orangered;
+    justify-content: center;
+    border: 2px orangered solid;
+    border-radius: 2rem;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+}
+
+.launchinfo h1{
+    text-align: center;
+    width: 100%;
+    border: 2px orangered solid;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.launchinfo h2{
+    text-align: center;
+    width: 100%; 
+}
+.launchinfo a{
+    text-align: center;
+    text-decoration: none;
+    color: orangered;
+    border: 2px orangered solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
+}
+.launchinfo p{
+    text-align: center;
+    width: 100%;
+}
+.launchinfo h3{
+    text-align: center;
+    width: 100%;
 }
 @media only screen and (max-width: 900px){
     main {
         position: relative;
-        top: 13rem;
+        top: 14rem;
+    }
+    .launchinfo h1{
+        font-size: 1.25rem;
+    }
+    
+    .launchinfo h2{
+        font-size: 1rem;
+    }
+    .launchinfo a{
+        padding: 0.75rem;
+        margin: 0.75rem;
+    }
+    .launchinfo p{
+        font-size: 0.75rem;
+    }
+    .launchinfo h3{
+        font-size: 0.75rem;
     }
 }
 @media only screen and (max-width: 650px){
     main {
         position: relative; 
-        top: 7.5rem;
+        top: 10.5rem;
     }
     .intro h2 {
         font-size: 2rem;
@@ -245,7 +317,7 @@ main {
     }
     .intro a {
         font-size: 1rem;
-        border: 0.1rem orangered solid;
+        border: 0.1rem yellow solid;
         border-radius: 0.5rem;
         padding: 0.5rem;
         margin: 0.5rem;
@@ -274,7 +346,7 @@ main {
 footer {
     width: 100%;
     height: 100%;
-    color:rgb(127, 255, 212, 0.75);
+    color: rgb(127, 255, 212);
     text-align: center;
     margin-top: 3rem;
 }
@@ -283,8 +355,7 @@ footer h3{
     border: 2px rgb(127, 255, 212) solid;
     padding: 1rem 0;
     border-radius: 2rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 3px #00c3ff, 0 0 4px #00c3ff, 0 0 5px #00c3ff, 0 0 7px #00c3ff, 0 0 10px #00c3ff;
-    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 3px #00c3ff, 0 0 4px #00c3ff, 0 0 5px #00c3ff, 0 0 7px #00c3ff, 0 0 10px #00c3ff;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 3px #00c3ff, 0 0 4px #00c3ff;
 }
 
 @media only screen and (max-width: 650px){
