@@ -3,30 +3,28 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(26, 26, 26);
 }
-
 /* Header style */
 header {
     display: flex;
-    border: 0.2rem rgb(172, 255, 47) solid;
-    width: 45rem;
-    background-color: rgba(172, 255, 47, 0.75);
+    border: 0.2rem goldenrod solid;
+    width: 40rem;
+    background-color: rgb(218, 165, 34, 0.75);
     border-radius: 2rem;
-    position: fixed;
     top: 1rem;
     left: 1rem;
     box-sizing: border-box;
     z-index: 99;
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
+    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px goldenrod, 0 0 7.5px goldenrod, 0 0 10px gold;
 }
 #icon {
-    border: 2px rgba(170, 36, 170, 0.5) solid;
-    border-radius: 2rem;
-    width: 15rem;
-    height: 15rem;
+    border: 2px goldenrod solid;
+    border-radius: 1.5rem;
+    width: 10rem;
+    height: 10rem;
     margin: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
+    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px goldenrod, 0 0 7.5px goldenrod, 0 0 10px gold;
 }
 
 .title {
@@ -37,13 +35,11 @@ header {
 .title h1 {
     width: 100%;
     text-align: center;
-    font-size: 3rem;
-    color:rgb(0, 106, 148);
-
+    font-size: 2rem;
 }
 .social {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
     margin: 1rem;
     align-self: center;
@@ -51,30 +47,21 @@ header {
     
 }
 .social:hover {
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18, 0 0 7.5px #49FF18, 0 0 10px #49FF18, 0 0 12px #49FF18, 0 0 15px #49ff18;
-}
-
-.navi {
-    text-decoration: none;
-    color:rgb(0, 106, 148);
-    font-weight: 700;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 5px #49ff18;
+    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px goldenrod, 0 0 7.5px goldenrod, 0 0 10px gold;
 }
 @media only screen and (max-width: 900px){
     header {
         width: 60%;
         border: 0.1rem;
-        border-radius: 1.5rem;
+        border-radius: 1.25rem;
     }
     #icon {
-        width: 10rem;
-        height: 10rem;
+        width: 8rem;
+        height: 8rem;
         margin: 0.5rem;
     }
     .title h1{
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .social {
         width: 3rem;
@@ -85,10 +72,12 @@ header {
 @media only screen and (max-width: 650px){
     header {
         width: 60%;
+        border-radius: 1rem;
     }
     #icon {
         width: 5rem;
         height: 5rem;
+        border-radius: 1rem;
     }
     .title h1{
         font-size: 1rem;
@@ -112,19 +101,13 @@ header {
         height: 1.75rem;
         margin: 0.25rem;
     }
-    .navi {
-        font-size: 0.75rem;
-        padding: 0;
-    }
 }
 
 /*Main style*/
 main {
-    position: relative;
-    top: 20rem;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    margin: 5rem 10rem;
 }
 .intro {
     display: flex;
@@ -133,255 +116,133 @@ main {
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    border: 0.2rem gold solid;
+    border: 0.2rem goldenrod solid;
     border-radius: 2rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18,0 0 7px #fbff18, 0 0 10px #fbff18;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px goldenrod, 0 0 5px goldenrod,0 0 7px goldenrod, 0 0 10px gold;
+    background-color: rgb(218, 165, 32, 0.75);
 }
 .intro h2 {
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color:yellow;
-    text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18;
 }
+
+.intro h3 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.intro a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    border: 2px goldenrod solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px goldenrod, 0 0 7px gold;
+}
+
+.intro a:hover{
+    color: goldenrod;
+    background-color: black;
+    box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px black, 0 0 7px black;
+}
+
 .intro img {
     height: 15rem;
     width: 15rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18, 0 0 7px #fbff18, 0 0 10px #fbff18;
+    margin-top: 0.5rem;
+    border: 0.2rem goldenrod solid;
+    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px goldenrod, 0 0 5px goldenrod, 0 0 7px goldenrod;
+}
+
+#info {
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
 }
 .intro p {
     text-align: center;
-    color:yellow;
     font-size: 2rem;
 }
 .intro p span {
     font-size: 3rem;
 }
 
-.intro a {
-    font-size: 2rem;
-    color: yellow;
-    text-decoration:none;
-    border: 2px yellow solid;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 4px #fbff18, 0 0 5px #fbff18,0 0 7px #fbff18, 0 0 10px #fbff18;
+#queen{
+    height: 40rem;
+    width: 26.4rem;
 }
-.roadmap {
-    width: 100%;
-    height: 100%;
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    border: 0.2rem rgb(106, 0, 245) solid;
-    border-radius: 2rem;
-
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
-}
-
-.roadmap h2 {
-    width: 100%;
-    text-align: center;
-    color:#4900f3;
-    font-size: 4rem;
-    padding-bottom: 1rem;
-    padding: auto;
-    text-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
-}
-
-.roadmap p {
-    width: 45%;
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
-    text-align: center;
-    color:#6f34f8;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0.5rem 2.5%;
-    border-radius: 2rem;
-}
-.roadmap p span {
-    font-size: 2rem;
-}
-
-.roadmap p img {
-    height: 15rem;
-    width: 15rem;
-    border-radius: 2rem;
-    margin-top: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
-}
-
-.roadmap .step3 {
-    width: 100%;
-}
-
-.roadmap .step3 img {
-    height: 30rem;
-    width: 30rem;
-    border-radius: 2rem;
-    margin-top: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 3px #FFF, 0 0 3px #FFF, 0 0 5px #4900f3, 0 0 7.5px #4900f3, 0 0 10px #4900f3, 0 0 12px #4900f3, 0 0 15px #4900f3;
-}
-.roadmap a {
-    text-decoration: none;
-    justify-content: center;
-    padding: 0.5rem;
-    margin: 1rem 0.5rem;
-    border-radius: 0.5rem;
-    border: 2px red solid;
-    color:red;
-    box-shadow: 0 0 2px #FFF, 0 0 5px #FFF, 0 0 6px #FFF, 0 0 7px red, 0 0 9px red, 0 0 12px red, 0 0 15px red, 0 0 25px red;
-
-}
-
-.nftlaunch {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nftlaunch a{
-    text-decoration: none;
-    text-align: center;
-    color: orangered;
-    border: 2px orangered solid;
-    padding: 1rem;
-    margin: 1.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
-}
-
-.launchinfo{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    color: orangered;
-    justify-content: center;
-    border: 2px orangered solid;
-    border-radius: 2rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
-}
-
-.launchinfo h1{
-    text-align: center;
-    width: 100%;
-    border: 2px orangered solid;
-    border-left: transparent;
-    border-right: transparent;
-}
-
-.launchinfo h2{
-    text-align: center;
-    width: 100%; 
-}
-.launchinfo a{
-    text-align: center;
-    text-decoration: none;
-    color: orangered;
-    border: 2px orangered solid;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin: 1rem;
-    box-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 4px orange, 0 0 5px orange, 0 0 7px orange, 0 0 10px orange, 0 0 12px orange;
-}
-.launchinfo p{
-    text-align: center;
-    width: 100%;
-}
-.launchinfo h3{
-    text-align: center;
-    width: 100%;
-}
-
-
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px) {
     main {
-        position: relative;
-        top: 14rem;
-    }
-    .launchinfo h1{
-        font-size: 1.25rem;
-    }
-    
-    .launchinfo h2{
-        font-size: 1rem;
-    }
-    .launchinfo a{
-        padding: 0.75rem;
-        margin: 0.75rem;
-    }
-    .launchinfo p{
-        font-size: 0.75rem;
-    }
-    .launchinfo h3{
-        font-size: 0.75rem;
-    }
-    .nftlaunch {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .nftlaunch a {
-        font-size: 0.75rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
-        border-radius: 0.5rem;
-    }
-    .nftlaunch p {
-        width: 100%;
-        color: red;
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 650px){
-    main {
-        position: relative; 
-        top: 10.5rem;
+        margin: 3rem 5rem;
     }
     .intro h2 {
         font-size: 2rem;
     }
-    .intro img {
-        height: 8rem;
-        width: 8rem;
+    .intro h3 {
+        font-size: 1.25rem;
     }
-    .intro p {
+    #queen{
+        height: 35rem;
+        width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    main {
+        margin: 1.5rem 2rem;
+    }
+    .intro h2 {
+        font-size: 1.75rem;
+    }
+    .intro h3 {
         font-size: 1rem;
     }
-    .intro p span {
-        font-size: 1.5rem;
+    .intro img {
+        height: 12.5rem;
+        width: 12.5rem;
     }
     .intro a {
-        font-size: 1rem;
-        border: 0.1rem yellow solid;
-        border-radius: 0.5rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
-        font-weight: 700;
+
+        font-size: 1.25rem;
+        border-radius: 0.4rem;
+        padding: 0.4rem;
     }
-    .roadmap h2 {
-        font-size: 2rem;
+    #queen{
+        height: 27.5rem;
+        width: 18.1rem;
     }
-    .roadmap p {
-        font-size: 1rem;
+}
+@media only screen and (max-width: 500px){
+    main {
+        margin: 1rem 1.25rem;
     }
-    .roadmap p span {
+    .intro h2 {
         font-size: 1.5rem;
     }
-    .roadmap p img {
-        height: 8rem;
-        width: 8rem;
+    .intro h3 {
+        font-size: 1rem;
     }
-    .roadmap .step3 img {
-        height: 13rem;
-        width: 13rem;
+    .intro img {
+        height: 10rem;
+        width: 10rem;
+    }
+    .intro a {
 
+        font-size: 1rem;
+        border-radius: 0.3rem;
+        padding: 0.3rem;
+    }
+    #queen{
+        height: 22.5rem;
+        width: 14.8rem;
     }
 }
 /* Footer style */
-footer {
+.footer {
     width: 100%;
     height: 100%;
     color: rgb(127, 255, 212);
@@ -389,7 +250,7 @@ footer {
     margin-top: 3rem;
 }
 
-footer h3{
+.footer h3{
     border: 2px rgb(127, 255, 212) solid;
     padding: 1rem 0;
     border-radius: 2rem;
@@ -397,10 +258,10 @@ footer h3{
 }
 
 @media only screen and (max-width: 650px){
-    footer {
+    .footer {
         margin-top: 0.5rem;
     }
-    footer h3{
+    .footer h3{
         border: 2px rgb(127, 255, 212) solid;
         padding: 0.5rem 0;
         border-radius: 1.5rem;
